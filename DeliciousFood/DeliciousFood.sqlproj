@@ -58,4 +58,11 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="User.sql" />
+    <Build Include="Recipe.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="DeliciousFood.refactorlog" />
+  </ItemGroup>
 </Project>
