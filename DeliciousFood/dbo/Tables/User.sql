@@ -6,7 +6,7 @@
 	[UserSex] [nchar](10) NULL,
 	[FirstName] [nchar](10) NULL,
 	[LastName] [nchar](10) NULL,
-	[UserImage] [nvarchar](max) NULL,
+	[UserImage] VARBINARY(MAX) NULL,
 	[UserLineID] [nvarchar](50) NULL,
  CONSTRAINT [PK_User] PRIMARY KEY CLUSTERED 
 (

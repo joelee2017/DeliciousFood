@@ -3,7 +3,7 @@
 	[UserID] [int] NOT NULL,
 	[RecipeName] [nvarchar](20) NOT NULL,
 	[Introduction] [nvarchar](50) NOT NULL,
-	[RecipeImage] [nvarchar](max) NULL,
+	[RecipeImage] VARBINARY(MAX) NULL,
  [CookingTime] INT NULL, 
     [Amount] INT NULL, 
     CONSTRAINT [PK_Recipes] PRIMARY KEY CLUSTERED 
