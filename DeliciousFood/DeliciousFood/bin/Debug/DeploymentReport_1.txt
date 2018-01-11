@@ -1,0 +1,31 @@
+﻿** 反白顯示
+     將重建的資料表
+       無
+     將卸除的叢集索引
+       無
+     將建立的叢集索引
+       無
+     資料可能的問題
+       無
+
+** 使用者動作
+     建立
+       [dbo].[IngredientList] (資料表)
+       [dbo].[OrderDetails] (資料表)
+       [dbo].[Orders] (資料表)
+       [dbo].[Orders].[IX_FK_食材訂單_user] (索引)
+       [dbo].[Recipes] (資料表)
+       [dbo].[Recipes].[IX_FK_食譜_user] (索引)
+       [dbo].[RecipesIngredient] (資料表)
+       [dbo].[RecipesIngredient].[IX_FK_食材_食譜] (索引)
+       [dbo].[Storage] (資料表)
+       [dbo].[Storage].[IX_FK_Storage_IngredientList] (索引)
+       [dbo].[User] (資料表)
+       [dbo].[FK_OrderDetails_Orders] (外部索引鍵)
+       [dbo].[FK_食材訂單_user] (外部索引鍵)
+       [dbo].[FK_食譜_user] (外部索引鍵)
+       [dbo].[FK_RecipesIngredient_IngredientList] (外部索引鍵)
+       [dbo].[FK_食材_食譜] (外部索引鍵)
+       [dbo].[FK_Storage_IngredientList] (外部索引鍵)
+
+** 支援動作
