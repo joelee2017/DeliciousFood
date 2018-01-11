@@ -2,7 +2,7 @@
 	[UserID] [int] IDENTITY(1,1) NOT NULL,
 	[UserName] [nvarchar](10) NOT NULL,
 	[UserPassword] [nvarchar](100) NOT NULL,
-	[UserEmail] [nvarchar](50) NULL,
+	[UserEmail] [nvarchar](50) NOT NULL,
 	[UserSex] [nchar](10) NULL,
 	[FirstName] [nchar](10) NULL,
 	[LastName] [nchar](10) NULL,
