@@ -65,4 +65,7 @@
   <ItemGroup>
     <RefactorLog Include="DeliciousFood.refactorlog" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="HTMLPage1.htm" />
+  </ItemGroup>
 </Project>
